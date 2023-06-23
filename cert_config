@@ -1,0 +1,16 @@
+[req]
+prompt = no
+default_md = sha256
+distinguished_name = dn
+
+[dn]
+C = XX
+ST = XX
+L = XX
+O = XX
+OU = XX
+CN = XX
+
+[ext]
+keyUsage = critical, digitalSignature, keyCertSign
+extendedKeyUsage = clientAuth
